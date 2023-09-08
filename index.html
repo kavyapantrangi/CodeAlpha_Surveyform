@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Code Alpha Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form action="https://formsubmit.co/kavyapantrangi@gmail.com" method="POST" id="survey-form">
+        <div class="form-div">
+      <label>Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+      <label>Email</label>
+      <input type="email" id="email" name="name" placeholder="Enter your Email" required>
+      <label>Age(optionl)</label>
+      <input type="number" id="age" name="Age" min="1" max="120">
+    
+        </div>
+        <div class="form-div">
+            <label id="dropdown-label">Which option best describes your current role</label>
+            <select name="dropdown" id="dropdown"><option value=""></option>
+            <option value="">Select current role</option>
+            <option value="">Student</option>
+            <option value="">Full time Job</option>
+            <option value="">Prefer Not To say</option>
+            <option value="">Other</option></select>
+        </div>
+        <div class="form-div">
+            <label id="label-radio">Would you recommend code alpha to your friend</label>
+           
+        </div>
+        <div class="form-div"> <label id="definetly"><input type="radio" value="definetly" name="recommend"> Definetly</label></div>
+        <div class="form-div"> <label id="maybe"><input type="radio" value="maybe" name="recommend"> May be</label></div>
+        <div class="form-div"> <label id="not sure"><input type="radio" value="not sure" name="recommend"> Not sure</label></div>
+        <div class="form-div">
+            <label id="dropdown-feature">Which Domain  you completed the internship</label>
+            <select name="dropdown" id="dropdown"><option value=""></option>
+            <option value="">Web Development</option>
+            <option value="">App Development</option>
+            <option value="">Graohic Designing</option>
+            <option value="">Java Internship</option>
+            <option value="">Python Internship</option>
+            <option value="">Cloud Computing</option>
+        </select>
+        </div>
+        <div class="form-div">
+            <label>please provide any feedback </label>
+            <textarea name="feedback" placeholder="enter your valuable feedback"></textarea>
+        </div>
+        <!-- <div class="forming"><input type="submit" value="submit"></div> -->
+        <div class="form-div"><button type="submit">submit</button></div>
+        
+
+    </form>
+    <input type="hidden" name="_next" value="https://form/success.html">
+   
+
+</body>
+</html>

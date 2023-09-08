@@ -1,0 +1,132 @@
+body {
+    color: white;
+    background: rgb(191, 143, 170);
+    background: radial-gradient(circle, rgba(191, 143, 170, 0.46596858638743455) 14%, rgba(169, 150, 174, 1) 21%, rgba(34, 193, 195, 1) 64%, rgba(72, 181, 189, 1) 100%);
+}
+
+h1,
+p {
+    margin: 10px auto;
+    display: block;
+
+}
+
+#description {
+    text-align: center;
+    font-style: italic;
+}
+
+#title {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: italic;
+}
+
+#survey-form {
+    background: rgb(174, 185, 238);
+    background: linear-gradient(90deg, rgba(174, 185, 238, 1) 0%, rgba(28, 77, 133, 1) 100%);
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+
+    border-radius: 10px;
+
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+
+}
+
+label {
+
+    margin-bottom: 10px;
+    width: 70%;
+    font-size: 18px;
+
+}
+
+
+input,select {
+    width: 70%;
+    height: 30px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+
+input[type="radio"] {
+    height: 20px;
+    margin-left: 20px;
+    width: 10%;
+
+}
+
+.form-radio {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last a{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+}
+textarea
+{
+    width: 70%;
+    font-size: 16px;
+    height: 100px;
+}
+
+
+/* {
+    justify-content: center;
+    text-align: center;
+    width:80px;
+    height: 30px;
+    background-color: rgb(122, 173, 45);
+    display: flex;
+    align-items: center;
+    /* margin: ; */
+.btn{
+
+    margin-bottom: 300px;
+}
+.forming
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button
+{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 50%;
+    height: 50px;
+    color: white;
+    background-color: green;
+    margin-bottom: 20px;
+    /* margin-left: 2em;
+    padding-left: 50px; */
+    text-align: center;
+}
+
+
